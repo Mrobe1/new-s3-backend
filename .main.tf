@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "mike_state_bucket" {
     }
 
     tags = {
-        Name = "John1-816606439534-tfstates"
+        Name = "my bucket"
         Environment = "Test"
     }
 }
